@@ -1,6 +1,63 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+html { 
+  background: url(images/KublaKhan.jpeg) no-repeat center center fixed; 
+/*   -webkit-background-size: cover; */
+/*   -moz-background-size: cover; */
+/*   -o-background-size: cover; */
+  background-size: cover;
 }
+
+h1{
+    display:inline;
+    background-color:green;
+    color:#fff;
+}
+
+aside.more-info {
+  background-color:purple;
+}
+
+header, footer {
+  background-color: yellow;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+#content {
+  background-color: purple;
+  margin: 0 0 10px 10px;
+  padding: 20px;
+}
+
+ul.poem {
+  display:inline;
+  color:limegreen;  
+  font-family:courier;
+  margin: 0 0 10px 10px;
+  padding: 20px;
+}
+  
+span.highlight {
+ background-color: purple; 
+}
+
+/* #content {
+  background-color: green; 
+} */
+
+/* 
+div::first-letter {
+  font-weight: bold;
+  color: red;
+}
+ */
