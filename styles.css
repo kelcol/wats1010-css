@@ -1,63 +1,166 @@
-/* This is where styles are defined for your page. */
-/* One style is provided as example. */
 
-html { 
-  background: url(images/KublaKhan.jpeg) no-repeat center center fixed; 
-/*   -webkit-background-size: cover; */
-/*   -moz-background-size: cover; */
-/*   -o-background-size: cover; */
+
+
+html {
+  background: url(images/KublaKhan.jpeg) no-repeat center center fixed;
+  /*   -webkit-background-size: cover; */
+  /*   -moz-background-size: cover; */
+  /*   -o-background-size: cover; */
   background-size: cover;
 }
 
-h1{
-    display:inline;
-    background-color:green;
-    color:#fff;
+/* HEADER AND FOOTER STYLING */
+
+header {
+	background-color: magenta;
+    margin: 2em;
+  border-radius: 16px;
+    }    
+
+h1 {
+  display: inline;
+  background-color: none;
+  color:yellow;
+  text-align: center;
+  padding:.5em;
+}
+h1 + p {
+  color:teal;
+  text-align: right;
+  padding: 1em;  
+}
+
+footer {
+  border-radius: 16px;
+  padding:1em;
+  background-color: none;
+  font-family: Arial, Verdana, sans-serif;
+   clear: both;
+}
+
+footer.page-footer {
+    margin: 2em;  
+  background-color: limegreen;
+}
+
+.page-credits {
+}
+
+.citation {  
+}
+
+/* IMAGE STYLING */
+
+img {
+  float: center;
+  display: block;
+  align-content: center;
+  margin: auto;
+  width: 80%;    
+  border-radius: 6px;
+  padding: 1em;
+}
+
+
+/* ASIDE STYLING  */
+h2 {
+  font-weight: bold;  
+  color: purple;
+  display: block;
+  font-size: 1.5em;
+  margin: .25em .25em 0 0;
+}
+
+aside > p {
+  color:yellow;
 }
 
 aside.more-info {
-  background-color:purple;
+  border-radius: 16px;
+    margin: 0 5em 0 0;
+  	width: 25%;
+  	float: right;
+  	background-color: teal;
+    border-color: limegreen;
+    border-style: solid;
+    border-width: thick;
+    padding: 1em;
 }
 
-header, footer {
-  background-color: yellow;
-}
 
-img {
-    float: right;
-    margin: 0 0 10px 10px;
-}
+
+/* LIST STYLING */
 
 ul {
-    list-style-type: none;
-    padding: 20px;
+      list-style-type: none;
+      display: inline-block;  
 }
 
-#content {
-  background-color: purple;
-  margin: 0 0 10px 10px;
-  padding: 20px;
+/* LIST STYLING - ASIDE */
+
+ul.info-links ul.social-links {
+    text-align: ;
+    margin: 0;
+    padding: 2em;
+    overflow: hidden;
+    background-color: red;
+  color: white;
 }
 
-ul.poem {
-  display:inline;
-  color:limegreen;  
-  font-family:courier;
-  margin: 0 0 10px 10px;
-  padding: 20px;
-}
-  
-span.highlight {
- background-color: purple; 
+ul.social-links li{
+   float: right;
+  font: extra-small;
+  color:red;
+
 }
 
-/* #content {
-  background-color: green; 
-} */
+ul.info-links li {
+    float: left;
+    color: white;
+}
 
-/* 
-div::first-letter {
+li a {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 2px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FF3366;
+}
+
+
+
+/* CONTENT STYLING */
+
+ul.poetry {
+  padding: 0 0 0 5em;
+}
+
+.poem { 
+  background-color:orange; 
+}
+
+#content {  
+  width: 60%; 
+  float: left;
+  background-color: none;
+  color: brown;
+  font-size: medium;
+  margin: 0 0 0px 0px;
+  padding: 0px;
+  display: inline;
+  line-height: 145%;
+}
+
+#poetry::first-letter {
   font-weight: bold;
   color: red;
 }
- */
+
+
+
+
+
+
