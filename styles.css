@@ -21,10 +21,6 @@ h1 {
   font-variant: small-caps;
 }
 
-h2 {
-    font: italic small-caps bolder 2em cursive;
-}
-
 h1 small {
   font-size: 3rem;
 }
@@ -35,7 +31,7 @@ h1 + p {
   padding: 1em;  
 }
 
-p, li {
+p, li, h2 {
   font: italic small-caps bolder 1em cursive;
 }
 
@@ -47,18 +43,13 @@ footer {
 }
 
 footer.page-footer {
-/*    margin: 2em;   */
   background-color: limegreen;
-}
-
-.page-credits {
-  float: center;
 }
 
 p.citation::first-letter {
   font-weight: bold;
   color: yellow;
-  font-size:150%;
+  font-size: 150%;
 }
 
 footer.content-footer > .citation {  
@@ -70,7 +61,6 @@ footer.content-footer > .citation {
 /* IMAGE STYLING */
 
 img {
-  float: center;
   display: block;
   align-content: center;
   margin: auto;
