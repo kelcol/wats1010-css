@@ -1,6 +1,8 @@
 html {
-  background: url(images/KublaKhan.jpeg) no-repeat center center fixed;
+  background-image: url('images/KublaKhan.jpeg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* HEADER AND FOOTER STYLING */
